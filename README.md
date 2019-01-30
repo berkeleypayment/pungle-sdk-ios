@@ -1,4 +1,4 @@
-v 0.5.3
+v 0.5.4
 
 ## Installation
 Unzip the `PungleSDK.zip` file and drop the folder on your Xcode project. If you want to copy the files over to the project or keep them linked to a directory is your choice.
