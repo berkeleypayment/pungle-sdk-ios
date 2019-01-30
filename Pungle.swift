@@ -33,7 +33,7 @@ class Pungle {
     }
     
     class func fetchCardToken(creditCard: PLCreditCard,
-                              success: @escaping(Any?, Error?, Int?) -> Swift.Void,
+                              success: @escaping(Any?, Int?) -> Swift.Void,
                               fail: @escaping(Any?, NSError?, Int?) -> Swift.Void ){
         
         // VERIFY AND VALIDATE request parameters are in order.
@@ -101,7 +101,7 @@ class Pungle {
             }
             
             // Response susccess
-            success(json, error, status)
+            success(json, status)
                                                                                 
         })
         cardTokenDataTask.resume()
