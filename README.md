@@ -69,9 +69,9 @@ if let jsonResponse = response as? [String: [String:Any]] {
 
 For errors caught by local validation you'll get an array of `PLError` objects. You can access them like this `err.userInfo[PLConstants.errors]`.
 
-`PLError` has two props: `errorType` and `errorMessage`. `errorType` is an ENUM, and errorMessage is a String that you can choose to use or not (you might want to create your own to present to the user).
+`PLError` has two props: `errorType` and `errorMessage`. `errorType` is an enum, and errorMessage is a String that you can choose to use or not (you might want to create your own to present to the user).
 
-`errorType` uses the ENUM described below. Each one of the ENUM cases will tell you where did the check failed:
+`errorType` uses the enum described below. Each one of the enum cases will tell you where did the check failed:
 
 
 ```swift
