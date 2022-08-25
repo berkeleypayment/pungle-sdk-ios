@@ -13,9 +13,8 @@ class Pungle {
     
     static let s = Pungle()
     var apiKey: String?
-    static let pungleStagingUrlStr = "https://api.staging.pungle.co/api/v1/"
-    static let pungleProdUrlStr = "https://api.pungle.io/api/v1/"
-    static let pungleProdUrlv2Str = "https://api.pungle.io/api/v2/"
+    static let pungleStagingUrlStr = "https://api.staging.pungle.co/api/v2/"
+    static let pungleProdUrlStr = "https://api.pungle.io/api/v2/"
     var baseUrl = ""
     
     // A pungle error before an API call is a different number other than an HTTP code.
